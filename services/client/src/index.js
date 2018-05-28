@@ -10,8 +10,8 @@ class App extends Component {
     super();
     this.state = {
       users: [],
-      username: '',
-      email: '',
+      username: 'justatest',
+      email: ''
     };
     this.addUser = this.addUser.bind(this);
     this.handleChange = this.handleChange.bind(this);
